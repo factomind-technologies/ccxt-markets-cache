@@ -1,0 +1,4 @@
+fasteners
+logzero
+pytest-asyncio
+pytest

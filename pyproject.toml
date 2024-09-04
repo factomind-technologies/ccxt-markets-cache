@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ccxt-markets-cache"
+version = "2024.8.4"
+dependencies = [
+  "fasteners",
+  "logzero",
+  # ccxt, obviously but omitted!
+]
+requires-python = ">=3.11"
+description = "Utility to cache ccxt markets data"
+readme = "README.md"
